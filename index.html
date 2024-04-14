@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>素敵な化粧品</title>
+    <style>
+        /* Reset CSS */
+        body, h1, h2, h3, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        ul {
+            list-style: none;
+        }
+        /* Header */
+        header {
+            background-color: #f7f7f7;
+            padding: 20px;
+            text-align: center;
+        }
+        .logo h1 {
+            font-size: 28px;
+            color: #333;
+        }
+        .menu ul {
+            margin-top: 20px;
+        }
+        .menu li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .menu li a {
+            text-decoration: none;
+            color: #333;
+        }
+        /* Hero section */
+        .hero {
+            background-image: url('background.jpg');
+            background-size: cover;
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        .hero .btn {
+            display: inline-block;
+            background-color: #ff6f61;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .hero .btn:hover {
+            background-color: #333;
+        }
+        /* Products section */
+        .products {
+            padding: 80px 0;
+            text-align: center;
+        }
+        .product-item {
+            margin-bottom: 50px;
+        }
+        .product-item img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+        }
+        .product-item h3 {
+            font-size: 24px;
+            margin-top: 20px;
+            color: #333;
+        }
+        .product-item p {
+            font-size: 16px;
+            margin-bottom: 20px;
+            color: #666;
+        }
+        .product-item .btn {
+            background-color: #ff6f61;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .product-item .btn:hover {
+            background-color: #333;
+        }
+        /* Features section */
+        .features {
+            background-color: #f7f7f7;
+            padding: 80px 0;
+            text-align: center;
+        }
+        .feature-item {
+            margin-bottom: 50px;
+        }
+        .feature-item i {
+            font-size: 48px;
+            color: #ff6f61;
+        }
+        .feature-item h3 {
+            font-size: 24px;
+            margin-top: 20px;
+            color: #333;
+        }
+        .feature-item p {
+            font-size: 16px;
+            margin-bottom: 20px;
+            color: #666;
+        }
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .footer-info h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .footer-info p {
+            font-size: 16px;
+            color: #ccc;
+        }
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 24px;
+            color: #fff;
+            transition: color 0.3s ease;
+        }
+        .social-icons a:hover {
+            color: #ff6f61;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>美しさを引き出す</h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">ホーム</a></li>
+                    <li><a href="#">製品</a></li>
+                    <li><a href="#">特典</a></li>
+                    <li><a href="#">お問い合わせ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>自然の美しさを体験しよう</h2>
+        <p>当社の化粧品は、自然由来の成分で作られています。お肌に優しい製品で、自然の美しさを引き出します。</p>
+        <a href="#" class="btn">製品を見る</a>
+    </section>
+
+    <section class="products">
+        <h2>人気の製品</h2>
+        <div class="product-item">
+            <img src="product1.jpg" alt="製品1">
+            <h3>ナチュラル ファンデーション</h3>
+            <p>自然なカバー力で、肌を軽やかに彩ります。</p>
+            <a href="#" class="btn">詳細を見る</a>
+        </div>
+        <div class="product-item">
+            <img src="product2.jpg" alt="製品2">
+            <h3>オーガニック リップクリーム</h3>
+            <p>唇をしっとりと保ちながら、自然な色合いを演出します。</p>
+            <a href="#" class="btn">詳細を見る</a>
+        </div>
+        <div class="product-item">
+            <img src="product3.jpg" alt="製品3">
+            <h3>エコロジカル アイシャドウ</h3>
+            <p>多彩な色合いで、自然なまなざしを叶えます。</p>
+            <a href="#" class="btn">詳細を見る</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2>製品の特徴</h2>
+        <div class="feature-item">
+            <i class="fas fa-leaf"></i>
+            <h3>自然由来の成分</h3>
+            <p>当社の製品はすべて自然由来の成分で作られています。お肌にやさしく、安心してお使いいただけます。</p>
+        </div>
+        <div class="feature-item">
+            <i class="fas fa-heart"></i>
+            <h3>お肌に優しい</h3>
+            <p>製品には余分な化学物質が含まれていません。お肌に負担をかけることなく、美しさを引き出します。</p>
+        </div>
+        <div class="feature-item">
+            <i class="fas fa-globe"></i>
+            <h3>環境に配慮</h3>
+            <p>私たちは環境に配慮した製品開発に取り組んでいます。地球に優しい化粧品を提供することを目指しています。</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-info">
+            <h3>お問い合わせ</h3>
+            <p>お電話: 012-345-6789<br>メール: info@example.com</p>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
