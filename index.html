@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>素敵な化粧品</title>
     <style>
+        @import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+
+        * {
+            font-family: 'Noto Serif JP', sans-serif;
+        }
         /* Reset CSS */
         body, h1, h2, h3, p, ul, li {
             margin: 0;
@@ -40,21 +45,21 @@
         }
         /* Hero section */
         .hero {
-            background-image: url('background.jpg');
+            /* background-image: url('background.jpg'); */
             background-size: cover;
             color: #fff;
-            padding: 100px 0;
+            /* padding: 100px 0; */
             text-align: center;
         }
         .hero h2 {
             font-size: 36px;
-            margin-bottom: 20px;
+            /* margin-bottom: 20px; */
         }
         .hero p {
             font-size: 18px;
-            margin-bottom: 30px;
+            /* margin-bottom: 30px; */
         }
-        .hero .btn {
+        /* .hero .btn {
             display: inline-block;
             background-color: #ff6f61;
             color: #fff;
@@ -65,7 +70,7 @@
         }
         .hero .btn:hover {
             background-color: #333;
-        }
+        } */
         /* Products section */
         .products {
             padding: 80px 0;
@@ -80,12 +85,12 @@
             border-radius: 10px;
         }
         .product-item h3 {
-            font-size: 24px;
+            font-size: 20px;
             margin-top: 20px;
             color: #333;
         }
         .product-item p {
-            font-size: 16px;
+            font-size: 12px;
             margin-bottom: 20px;
             color: #666;
         }
@@ -110,17 +115,18 @@
             margin-bottom: 50px;
         }
         .feature-item i {
-            font-size: 48px;
+            font-size: 52px;
             color: #ff6f61;
         }
         .feature-item h3 {
             font-size: 24px;
-            margin-top: 20px;
+            margin-top: 8px;
             color: #333;
         }
         .feature-item p {
-            font-size: 16px;
+            font-size: 12px;
             margin-bottom: 20px;
+            padding: 0 28px;
             color: #666;
         }
         /* Footer */
@@ -155,49 +161,61 @@
     <header>
         <nav>
             <div class="logo">
-                <h1>美しさを引き出す</h1>
+                <h1>Plemium laurel milk </h1>
             </div>
             <div class="menu">
                 <ul>
-                    <li><a href="#">ホーム</a></li>
-                    <li><a href="#">製品</a></li>
+                    <li><a href="#">Nourish Your Skin Naturally with Organic Body Cream</a></li>
+                    <!-- <li><a href="#">製品</a></li>
                     <li><a href="#">特典</a></li>
-                    <li><a href="#">お問い合わせ</a></li>
+                    <li><a href="#">お問い合わせ</a></li> -->
                 </ul>
             </div>
         </nav>
     </header>
 
-    <section class="hero">
-        <h2>自然の美しさを体験しよう</h2>
-        <p>当社の化粧品は、自然由来の成分で作られています。お肌に優しい製品で、自然の美しさを引き出します。</p>
-        <a href="#" class="btn">製品を見る</a>
+    <section class="hero" style="margin:0; padding:0;">
+        <div>
+            <img src="top_image1.jpg" alt="素材1" style="width:100vw;">
+            <img src="top_image2.jpg" alt="素材2" style="width:100vw;">
+            <img src="top_image3.jpg" alt="素材3" style="width:100vw;">
+            <img src="top_image4.jpg" alt="素材4" style="width:100vw;">
+            <img src="top_image5.jpg" alt="素材5" style="width:100vw;">
+            <img src="top_image6.jpg" alt="素材5" style="width:100vw;">
+        </div>
+        <!-- <h2>自然の美しさを体験しよう</h2>
+        <p>当社の化粧品は、自然由来の成分で作られています。お肌に優しい製品で、自然の美しさを引き出します。</p> -->
+        <!-- <a href="#" class="btn">製品を見る</a> -->
     </section>
 
     <section class="products">
-        <h2>人気の製品</h2>
-        <div class="product-item">
-            <img src="product1.jpg" alt="製品1">
-            <h3>ナチュラル ファンデーション</h3>
-            <p>自然なカバー力で、肌を軽やかに彩ります。</p>
-            <a href="#" class="btn">詳細を見る</a>
-        </div>
+        <!-- <h2 style="padding-bottom:20px;">人気の製品</h2>
         <div class="product-item">
             <img src="product2.jpg" alt="製品2">
-            <h3>オーガニック リップクリーム</h3>
+            <h3>Organic Lip Cream</h3>
             <p>唇をしっとりと保ちながら、自然な色合いを演出します。</p>
-            <a href="#" class="btn">詳細を見る</a>
         </div>
         <div class="product-item">
             <img src="product3.jpg" alt="製品3">
-            <h3>エコロジカル アイシャドウ</h3>
+            <h3>Ecological Toner</h3>
             <p>多彩な色合いで、自然なまなざしを叶えます。</p>
-            <a href="#" class="btn">詳細を見る</a>
+        </div> -->
+        <h2 style="padding-bottom:20px;">Our Products</h2>
+        <div class="product-item">
+            <img src="product2.jpg" alt="Product 2">
+            <h3>Organic Lip Cream</h3>
+            <p>Moisturizes lips while providing a natural tint.</p>
         </div>
+        <div class="product-item">
+            <img src="product3.jpg" alt="Product 3">
+            <h3>Ecological Toner</h3>
+            <p>Offers a natural look with a variety of shades.</p>
+        </div>
+        
     </section>
 
     <section class="features">
-        <h2>製品の特徴</h2>
+        <!-- <h2>私たちの製品の特徴</h2>
         <div class="feature-item">
             <i class="fas fa-leaf"></i>
             <h3>自然由来の成分</h3>
@@ -212,13 +230,30 @@
             <i class="fas fa-globe"></i>
             <h3>環境に配慮</h3>
             <p>私たちは環境に配慮した製品開発に取り組んでいます。地球に優しい化粧品を提供することを目指しています。</p>
+        </div> -->
+        <h2>Features of Our Products</h2>
+        <div class="feature-item">
+            <i class="fas fa-leaf"></i>
+            <h3>Naturally Derived Ingredients</h3>
+            <p>All our products are made with naturally derived ingredients. Gentle on the skin, you can use them with confidence.</p>
         </div>
+        <div class="feature-item">
+            <i class="fas fa-heart"></i>
+            <h3>Kind to Your Skin</h3>
+            <p>Our products are free from unnecessary chemicals. They bring out beauty without burdening your skin.</p>
+        </div>
+        <div class="feature-item">
+            <i class="fas fa-globe"></i>
+            <h3>Environmentally Conscious</h3>
+            <p>We are committed to environmentally conscious product development. Our aim is to provide cosmetics that are gentle on the planet.</p>
+        </div>
+
     </section>
 
     <footer>
         <div class="footer-info">
-            <h3>お問い合わせ</h3>
-            <p>お電話: 012-345-6789<br>メール: info@example.com</p>
+            <h3>inquiry</h3>
+            <p>tel: 012-345-6789<br>mail: info@example.com</p>
         </div>
         <div class="social-icons">
             <a href="#"><i class="fab fa-facebook"></i></a>
@@ -228,3 +263,5 @@
     </footer>
 </body>
 </html>
+
+
